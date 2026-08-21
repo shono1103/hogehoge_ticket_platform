@@ -1,0 +1,16 @@
+specification {
+  element system
+}
+
+model {
+  system = system 'System' {
+    description '入力にアーキテクチャ定義の内容が記載されていなかったため、プレースホルダーとして生成'
+  }
+}
+
+views {
+  view index {
+    title '全体像'
+    include *
+  }
+}

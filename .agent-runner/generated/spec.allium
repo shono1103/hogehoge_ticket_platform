@@ -1,0 +1,6 @@
+-- allium: 3
+
+open question "wasm loaderがclient actionでsymbol-sdkの読み込みに失敗する具体的な原因(バンドラー設定・動的importの方法・実行環境の差異など)が未確定"
+open question "「全体構成を変更しても構わない」とあるが、変更可能な範囲(ビルド設定、symbol-sdkの呼び出し方式、client/serverの責務分割など)が未確定"
+open question "修正後にclient actionから期待される具体的な観測可能な振る舞い(symbol-sdkのどの機能が呼び出せればよいか)が未定義のため、entity/ruleを定義できない"
+open question "テスト定義が未記入のため、検証すべきシナリオ・成功条件が未確定"
